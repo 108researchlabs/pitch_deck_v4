@@ -114,7 +114,7 @@ export function Strategies() {
             <span className="text-[10px] uppercase tracking-widest text-white/20">Enhanced Exposure</span>
             <h3 className="text-2xl font-light mt-4 text-white">High Beta Derivatives Mandate</h3>
             <p className="mt-4 text-white/40 leading-relaxed font-light text-sm">
-              This mandate is structured for investors seeking enhanced return potential and is characterised by a higher ris profile, with greater sensitivity to market volatility.
+              This mandate is structured for investors seeking enhanced return potential and is characterised by a higher risk profile, with greater sensitivity to market volatility.
             </p>
           </div>
         </div>
