@@ -139,7 +139,7 @@ function CombinedStatCard({ metric, chartData }: { metric: MetricGroup, chartDat
           <p className="text-[10px] text-white/20 mt-1 uppercase italic">Integrated Performance</p>
         </div>
         <div className="text-right">
-          <p className="text-[9px] uppercase tracking-widest text-white/30 mb-1">Institutional CAGR</p>
+          <p className="text-[9px] uppercase tracking-widest text-white/30 mb-1">CAGR</p>
           <p className="text-3xl font-light mono-stat text-white">{metric.cagr}</p>
         </div>
       </div>
@@ -154,7 +154,7 @@ function CombinedStatCard({ metric, chartData }: { metric: MetricGroup, chartDat
           <p className="text-sm font-light mono-stat text-white/70">{metric.calmar}</p>
         </div>
         <div>
-          <p className="text-[10px] text-white/20 uppercase tracking-widest mb-1">Duration</p>
+          <p className="text-[10px] text-white/20 uppercase tracking-widest mb-1">Drawdown Duration</p>
           <p className="text-sm font-light mono-stat text-white/70">{metric.duration}</p>
         </div>
       </div>
