@@ -107,7 +107,7 @@ function StatCard({ metric, chartData }: { metric: MetricGroup, chartData: Chart
           <p className="text-2xl font-light mono-stat">{metric.cagr}</p>
         </div>
         <div>
-          <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Drawdown</p>
+          <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Max Drawdown</p>
           <p className="text-2xl font-light mono-stat text-white/60">{metric.drawdown}</p>
         </div>
         <div>
@@ -115,7 +115,7 @@ function StatCard({ metric, chartData }: { metric: MetricGroup, chartData: Chart
           <p className="text-xl font-light mono-stat">{metric.calmar}</p>
         </div>
         <div>
-          <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Duration</p>
+          <p className="text-[10px] uppercase tracking-widest text-white/30 mb-1">Drawdown Duration</p>
           <p className="text-lg font-light mono-stat text-white/40">{metric.duration}</p>
         </div>
       </div>
